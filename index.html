@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Редактор табличных данных</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="main.js" type="text/javascript"></script>  
+
+</head>
+    <body>
+      <div class ="container">
+      <div class = "scroll-table">
+        <table >
+            <thead>
+                <tr class="table_str">
+                    <th>Имя</th>
+                    <th>Вид</th>
+                    <th>Возраст</th>
+                    <th>Удалить </th>
+                   </tr>
+                </thead>
+        </table>
+    <div class="scroll-table-body">
+        <table id="table">
+            <tbody id="del_str">
+            </tbody>
+        </table>
+    </div>
+    <button onclick="insert_str()" class="button">Добавить строку</button>
+    <button onclick="saveValue()" class="button">Сохранить</button>
+</div>
+    </body>
+</html>
