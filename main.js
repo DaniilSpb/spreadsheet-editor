@@ -29,6 +29,7 @@ function insert_str() {
     const td = tr.insertCell();
     td.setAttribute("style", "padding:0px");
     let input = document.createElement("input");
+    input.placeholder = "Введите значение";
     input.classList.add("input_main_table");
     if (x % 2 == 0) {
       input.setAttribute("style", "background:#f3f3f3");
